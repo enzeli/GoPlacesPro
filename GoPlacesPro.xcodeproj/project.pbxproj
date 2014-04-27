@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31999F318EDB7BE001949B6 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31999F218EDB7BE001949B6 /* placeholder.jpg */; };
+		C3656D8318D389D200FF6BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3656D8218D389D200FF6BF3 /* Foundation.framework */; };
+		C3656D8518D389D200FF6BF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3656D8418D389D200FF6BF3 /* CoreGraphics.framework */; };
+		C3656D8718D389D200FF6BF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3656D8618D389D200FF6BF3 /* UIKit.framework */; };
+		C3656D8D18D389D200FF6BF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3656D8B18D389D200FF6BF3 /* InfoPlist.strings */; };
+		C3656D8F18D389D200FF6BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3656D8E18D389D200FF6BF3 /* main.m */; };
+		C3656D9318D389D200FF6BF3 /* GPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3656D9218D389D200FF6BF3 /* GPAppDelegate.m */; };
+		C3656D9618D389D200FF6BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3656D9418D389D200FF6BF3 /* Main.storyboard */; };
+		C3656D9B18D389D200FF6BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3656D9A18D389D200FF6BF3 /* Images.xcassets */; };
+		C3656DA218D389D200FF6BF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3656DA118D389D200FF6BF3 /* XCTest.framework */; };
+		C3656DA318D389D200FF6BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3656D8218D389D200FF6BF3 /* Foundation.framework */; };
+		C3656DA418D389D200FF6BF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3656D8618D389D200FF6BF3 /* UIKit.framework */; };
+		C3656DAC18D389D200FF6BF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3656DAA18D389D200FF6BF3 /* InfoPlist.strings */; };
+		C3656DAE18D389D200FF6BF3 /* GoPlacesProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3656DAD18D389D200FF6BF3 /* GoPlacesProTests.m */; };
+		C36BB96B18E3BE83005A04C2 /* GooglePlacesSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB96A18E3BE83005A04C2 /* GooglePlacesSearcher.m */; };
+		C36BB98018E3C8DB005A04C2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB96E18E3C8DA005A04C2 /* AFHTTPRequestOperation.m */; };
+		C36BB98118E3C8DB005A04C2 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97018E3C8DA005A04C2 /* AFHTTPRequestOperationManager.m */; };
+		C36BB98218E3C8DB005A04C2 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97218E3C8DA005A04C2 /* AFHTTPSessionManager.m */; };
+		C36BB98318E3C8DB005A04C2 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97518E3C8DA005A04C2 /* AFNetworkReachabilityManager.m */; };
+		C36BB98418E3C8DB005A04C2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97718E3C8DA005A04C2 /* AFSecurityPolicy.m */; };
+		C36BB98518E3C8DB005A04C2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97918E3C8DA005A04C2 /* AFURLConnectionOperation.m */; };
+		C36BB98618E3C8DB005A04C2 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97B18E3C8DA005A04C2 /* AFURLRequestSerialization.m */; };
+		C36BB98718E3C8DB005A04C2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97D18E3C8DA005A04C2 /* AFURLResponseSerialization.m */; };
+		C36BB98818E3C8DB005A04C2 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C36BB97F18E3C8DA005A04C2 /* AFURLSessionManager.m */; };
+		C3C379C618D76F8700B94404 /* Drawers.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C379BE18D76F8700B94404 /* Drawers.png */; };
+		C3C379C718D76F8700B94404 /* Drawers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C379BF18D76F8700B94404 /* Drawers@2x.png */; };
+		C3C379C818D76F8700B94404 /* Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C379C018D76F8700B94404 /* Favorites.png */; };
+		C3C379C918D76F8700B94404 /* Favorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C379C118D76F8700B94404 /* Favorites@2x.png */; };
+		C3C379CB18D76F8700B94404 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C379C318D76F8700B94404 /* Search.png */; };
+		C3C379CC18D76F8700B94404 /* Search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C379C418D76F8700B94404 /* Search@2x.png */; };
+		C3C379CD18D76F8700B94404 /* texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3C379C518D76F8700B94404 /* texture.jpg */; };
+		C3C379D018D7707700B94404 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3C379CE18D7707700B94404 /* Model.xcdatamodeld */; };
+		C3C379DA18D77F4B00B94404 /* FavDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C379D918D77F4B00B94404 /* FavDataManager.m */; };
+		C3C643DA18D4C28E00CB9C21 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C643D918D4C28E00CB9C21 /* ImageIO.framework */; };
+		C3C643DC18D4C29400CB9C21 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C643DB18D4C29400CB9C21 /* MapKit.framework */; };
+		C3C643DE18D4C2AC00CB9C21 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C643DD18D4C2AC00CB9C21 /* CoreData.framework */; };
+		C3C643E618D4D67200CB9C21 /* GPSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C643E518D4D67200CB9C21 /* GPSearchViewController.m */; };
+		C3C643EC18D4D6C200CB9C21 /* GPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C643EB18D4D6C200CB9C21 /* GPDetailViewController.m */; };
+		C3C643EF18D4D7D300CB9C21 /* GPSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C643EE18D4D7D300CB9C21 /* GPSearchTableViewController.m */; };
+		C3C643F518D64A2C00CB9C21 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C643F418D64A2C00CB9C21 /* SDWebImage.framework */; };
+		C3FFC1A818DA8A7A00B3C4F6 /* GPFavDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFC1A718DA8A7A00B3C4F6 /* GPFavDetailViewController.m */; };
+		C3FFC1AB18DA8CF700B3C4F6 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFC1AA18DA8CF700B3C4F6 /* Venue.m */; };
+		C3FFC1AE18DA923F00B3C4F6 /* GPFavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFC1AD18DA923F00B3C4F6 /* GPFavTableViewController.m */; };
+		C3FFC1B118DA9AE800B3C4F6 /* GPSearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFC1B018DA9AE800B3C4F6 /* GPSearchDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3656DA518D389D200FF6BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3656D7718D389D200FF6BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3656D7E18D389D200FF6BF3;
+			remoteInfo = GoPlacesPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31999F218EDB7BE001949B6 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		C3656D7F18D389D200FF6BF3 /* GoPlacesPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPlacesPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3656D8218D389D200FF6BF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3656D8418D389D200FF6BF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3656D8618D389D200FF6BF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3656D8A18D389D200FF6BF3 /* GoPlacesPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoPlacesPro-Info.plist"; sourceTree = "<group>"; };
+		C3656D8C18D389D200FF6BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3656D8E18D389D200FF6BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3656D9018D389D200FF6BF3 /* GoPlacesPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoPlacesPro-Prefix.pch"; sourceTree = "<group>"; };
+		C3656D9118D389D200FF6BF3 /* GPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPAppDelegate.h; sourceTree = "<group>"; };
+		C3656D9218D389D200FF6BF3 /* GPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPAppDelegate.m; sourceTree = "<group>"; };
+		C3656D9518D389D200FF6BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3656D9A18D389D200FF6BF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3656DA018D389D200FF6BF3 /* GoPlacesProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoPlacesProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3656DA118D389D200FF6BF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3656DA918D389D200FF6BF3 /* GoPlacesProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoPlacesProTests-Info.plist"; sourceTree = "<group>"; };
+		C3656DAB18D389D200FF6BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3656DAD18D389D200FF6BF3 /* GoPlacesProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoPlacesProTests.m; sourceTree = "<group>"; };
+		C36BB96918E3BE83005A04C2 /* GooglePlacesSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlacesSearcher.h; sourceTree = "<group>"; };
+		C36BB96A18E3BE83005A04C2 /* GooglePlacesSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesSearcher.m; sourceTree = "<group>"; };
+		C36BB96D18E3C8DA005A04C2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C36BB96E18E3C8DA005A04C2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C36BB96F18E3C8DA005A04C2 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C36BB97018E3C8DA005A04C2 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		C36BB97118E3C8DA005A04C2 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C36BB97218E3C8DA005A04C2 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C36BB97318E3C8DA005A04C2 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		C36BB97418E3C8DA005A04C2 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C36BB97518E3C8DA005A04C2 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C36BB97618E3C8DA005A04C2 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C36BB97718E3C8DA005A04C2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C36BB97818E3C8DA005A04C2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		C36BB97918E3C8DA005A04C2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		C36BB97A18E3C8DA005A04C2 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C36BB97B18E3C8DA005A04C2 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C36BB97C18E3C8DA005A04C2 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C36BB97D18E3C8DA005A04C2 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C36BB97E18E3C8DA005A04C2 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		C36BB97F18E3C8DA005A04C2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		C3C379BE18D76F8700B94404 /* Drawers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drawers.png; sourceTree = "<group>"; };
+		C3C379BF18D76F8700B94404 /* Drawers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drawers@2x.png"; sourceTree = "<group>"; };
+		C3C379C018D76F8700B94404 /* Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorites.png; sourceTree = "<group>"; };
+		C3C379C118D76F8700B94404 /* Favorites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Favorites@2x.png"; sourceTree = "<group>"; };
+		C3C379C318D76F8700B94404 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		C3C379C418D76F8700B94404 /* Search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search@2x.png"; sourceTree = "<group>"; };
+		C3C379C518D76F8700B94404 /* texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture.jpg; sourceTree = "<group>"; };
+		C3C379CF18D7707700B94404 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C3C379D818D77F4B00B94404 /* FavDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavDataManager.h; sourceTree = "<group>"; };
+		C3C379D918D77F4B00B94404 /* FavDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavDataManager.m; sourceTree = "<group>"; };
+		C3C643D918D4C28E00CB9C21 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C3C643DB18D4C29400CB9C21 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C3C643DD18D4C2AC00CB9C21 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3C643E318D4D5B500CB9C21 /* GoogleMapsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMapsAPI.h; sourceTree = "<group>"; };
+		C3C643E418D4D67200CB9C21 /* GPSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSearchViewController.h; sourceTree = "<group>"; };
+		C3C643E518D4D67200CB9C21 /* GPSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSearchViewController.m; sourceTree = "<group>"; };
+		C3C643EA18D4D6C200CB9C21 /* GPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDetailViewController.h; sourceTree = "<group>"; };
+		C3C643EB18D4D6C200CB9C21 /* GPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDetailViewController.m; sourceTree = "<group>"; };
+		C3C643ED18D4D7D300CB9C21 /* GPSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSearchTableViewController.h; sourceTree = "<group>"; };
+		C3C643EE18D4D7D300CB9C21 /* GPSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSearchTableViewController.m; sourceTree = "<group>"; };
+		C3C643F418D64A2C00CB9C21 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		C3FFC1A618DA8A7A00B3C4F6 /* GPFavDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFavDetailViewController.h; sourceTree = "<group>"; };
+		C3FFC1A718DA8A7A00B3C4F6 /* GPFavDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFavDetailViewController.m; sourceTree = "<group>"; };
+		C3FFC1A918DA8CF700B3C4F6 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		C3FFC1AA18DA8CF700B3C4F6 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		C3FFC1AC18DA923F00B3C4F6 /* GPFavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFavTableViewController.h; sourceTree = "<group>"; };
+		C3FFC1AD18DA923F00B3C4F6 /* GPFavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFavTableViewController.m; sourceTree = "<group>"; };
+		C3FFC1AF18DA9AE800B3C4F6 /* GPSearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSearchDetailViewController.h; sourceTree = "<group>"; };
+		C3FFC1B018DA9AE800B3C4F6 /* GPSearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSearchDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3656D7C18D389D200FF6BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C643F518D64A2C00CB9C21 /* SDWebImage.framework in Frameworks */,
+				C3C643DE18D4C2AC00CB9C21 /* CoreData.framework in Frameworks */,
+				C3C643DC18D4C29400CB9C21 /* MapKit.framework in Frameworks */,
+				C3C643DA18D4C28E00CB9C21 /* ImageIO.framework in Frameworks */,
+				C3656D8518D389D200FF6BF3 /* CoreGraphics.framework in Frameworks */,
+				C3656D8718D389D200FF6BF3 /* UIKit.framework in Frameworks */,
+				C3656D8318D389D200FF6BF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3656D9D18D389D200FF6BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3656DA218D389D200FF6BF3 /* XCTest.framework in Frameworks */,
+				C3656DA418D389D200FF6BF3 /* UIKit.framework in Frameworks */,
+				C3656DA318D389D200FF6BF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3656D7618D389D200FF6BF3 = {
+			isa = PBXGroup;
+			children = (
+				C3656D8818D389D200FF6BF3 /* GoPlacesPro */,
+				C3656DA718D389D200FF6BF3 /* GoPlacesProTests */,
+				C3656D8118D389D200FF6BF3 /* Frameworks */,
+				C3656D8018D389D200FF6BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3656D8018D389D200FF6BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3656D7F18D389D200FF6BF3 /* GoPlacesPro.app */,
+				C3656DA018D389D200FF6BF3 /* GoPlacesProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3656D8118D389D200FF6BF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C643F418D64A2C00CB9C21 /* SDWebImage.framework */,
+				C3C643DD18D4C2AC00CB9C21 /* CoreData.framework */,
+				C3C643DB18D4C29400CB9C21 /* MapKit.framework */,
+				C3C643D918D4C28E00CB9C21 /* ImageIO.framework */,
+				C3656D8218D389D200FF6BF3 /* Foundation.framework */,
+				C3656D8418D389D200FF6BF3 /* CoreGraphics.framework */,
+				C3656D8618D389D200FF6BF3 /* UIKit.framework */,
+				C3656DA118D389D200FF6BF3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3656D8818D389D200FF6BF3 /* GoPlacesPro */ = {
+			isa = PBXGroup;
+			children = (
+				C3656D9118D389D200FF6BF3 /* GPAppDelegate.h */,
+				C3656D9218D389D200FF6BF3 /* GPAppDelegate.m */,
+				C3656D9418D389D200FF6BF3 /* Main.storyboard */,
+				C36BB98A18E3CADB005A04C2 /* ViewControllers */,
+				C3C379D718D77E2600B94404 /* CoreData */,
+				C36BB98918E3CA09005A04C2 /* GoogleMaps */,
+				C36BB96C18E3C8DA005A04C2 /* AFNetworking */,
+				C3656D9A18D389D200FF6BF3 /* Images.xcassets */,
+				C3C379BD18D76F8700B94404 /* Images */,
+				C3656D8918D389D200FF6BF3 /* Supporting Files */,
+			);
+			path = GoPlacesPro;
+			sourceTree = "<group>";
+		};
+		C3656D8918D389D200FF6BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3656D8A18D389D200FF6BF3 /* GoPlacesPro-Info.plist */,
+				C3656D8B18D389D200FF6BF3 /* InfoPlist.strings */,
+				C3656D8E18D389D200FF6BF3 /* main.m */,
+				C3656D9018D389D200FF6BF3 /* GoPlacesPro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3656DA718D389D200FF6BF3 /* GoPlacesProTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3656DAD18D389D200FF6BF3 /* GoPlacesProTests.m */,
+				C3656DA818D389D200FF6BF3 /* Supporting Files */,
+			);
+			path = GoPlacesProTests;
+			sourceTree = "<group>";
+		};
+		C3656DA818D389D200FF6BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3656DA918D389D200FF6BF3 /* GoPlacesProTests-Info.plist */,
+				C3656DAA18D389D200FF6BF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C36BB96C18E3C8DA005A04C2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C36BB96D18E3C8DA005A04C2 /* AFHTTPRequestOperation.h */,
+				C36BB96E18E3C8DA005A04C2 /* AFHTTPRequestOperation.m */,
+				C36BB96F18E3C8DA005A04C2 /* AFHTTPRequestOperationManager.h */,
+				C36BB97018E3C8DA005A04C2 /* AFHTTPRequestOperationManager.m */,
+				C36BB97118E3C8DA005A04C2 /* AFHTTPSessionManager.h */,
+				C36BB97218E3C8DA005A04C2 /* AFHTTPSessionManager.m */,
+				C36BB97318E3C8DA005A04C2 /* AFNetworking.h */,
+				C36BB97418E3C8DA005A04C2 /* AFNetworkReachabilityManager.h */,
+				C36BB97518E3C8DA005A04C2 /* AFNetworkReachabilityManager.m */,
+				C36BB97618E3C8DA005A04C2 /* AFSecurityPolicy.h */,
+				C36BB97718E3C8DA005A04C2 /* AFSecurityPolicy.m */,
+				C36BB97818E3C8DA005A04C2 /* AFURLConnectionOperation.h */,
+				C36BB97918E3C8DA005A04C2 /* AFURLConnectionOperation.m */,
+				C36BB97A18E3C8DA005A04C2 /* AFURLRequestSerialization.h */,
+				C36BB97B18E3C8DA005A04C2 /* AFURLRequestSerialization.m */,
+				C36BB97C18E3C8DA005A04C2 /* AFURLResponseSerialization.h */,
+				C36BB97D18E3C8DA005A04C2 /* AFURLResponseSerialization.m */,
+				C36BB97E18E3C8DA005A04C2 /* AFURLSessionManager.h */,
+				C36BB97F18E3C8DA005A04C2 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C36BB98918E3CA09005A04C2 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				C3C643E318D4D5B500CB9C21 /* GoogleMapsAPI.h */,
+				C36BB96918E3BE83005A04C2 /* GooglePlacesSearcher.h */,
+				C36BB96A18E3BE83005A04C2 /* GooglePlacesSearcher.m */,
+			);
+			name = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		C36BB98A18E3CADB005A04C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3C643E418D4D67200CB9C21 /* GPSearchViewController.h */,
+				C3C643E518D4D67200CB9C21 /* GPSearchViewController.m */,
+				C3C643ED18D4D7D300CB9C21 /* GPSearchTableViewController.h */,
+				C3C643EE18D4D7D300CB9C21 /* GPSearchTableViewController.m */,
+				C3FFC1AC18DA923F00B3C4F6 /* GPFavTableViewController.h */,
+				C3FFC1AD18DA923F00B3C4F6 /* GPFavTableViewController.m */,
+				C3C643EA18D4D6C200CB9C21 /* GPDetailViewController.h */,
+				C3C643EB18D4D6C200CB9C21 /* GPDetailViewController.m */,
+				C3FFC1AF18DA9AE800B3C4F6 /* GPSearchDetailViewController.h */,
+				C3FFC1B018DA9AE800B3C4F6 /* GPSearchDetailViewController.m */,
+				C3FFC1A618DA8A7A00B3C4F6 /* GPFavDetailViewController.h */,
+				C3FFC1A718DA8A7A00B3C4F6 /* GPFavDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C3C379BD18D76F8700B94404 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3C379BE18D76F8700B94404 /* Drawers.png */,
+				C3C379BF18D76F8700B94404 /* Drawers@2x.png */,
+				C3C379C018D76F8700B94404 /* Favorites.png */,
+				C3C379C118D76F8700B94404 /* Favorites@2x.png */,
+				C3C379C318D76F8700B94404 /* Search.png */,
+				C3C379C418D76F8700B94404 /* Search@2x.png */,
+				C31999F218EDB7BE001949B6 /* placeholder.jpg */,
+				C3C379C518D76F8700B94404 /* texture.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C3C379D718D77E2600B94404 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C3C379CE18D7707700B94404 /* Model.xcdatamodeld */,
+				C3FFC1A918DA8CF700B3C4F6 /* Venue.h */,
+				C3FFC1AA18DA8CF700B3C4F6 /* Venue.m */,
+				C3C379D818D77F4B00B94404 /* FavDataManager.h */,
+				C3C379D918D77F4B00B94404 /* FavDataManager.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3656D7E18D389D200FF6BF3 /* GoPlacesPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3656DB118D389D200FF6BF3 /* Build configuration list for PBXNativeTarget "GoPlacesPro" */;
+			buildPhases = (
+				C3656D7B18D389D200FF6BF3 /* Sources */,
+				C3656D7C18D389D200FF6BF3 /* Frameworks */,
+				C3656D7D18D389D200FF6BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoPlacesPro;
+			productName = GoPlacesPro;
+			productReference = C3656D7F18D389D200FF6BF3 /* GoPlacesPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3656D9F18D389D200FF6BF3 /* GoPlacesProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3656DB418D389D200FF6BF3 /* Build configuration list for PBXNativeTarget "GoPlacesProTests" */;
+			buildPhases = (
+				C3656D9C18D389D200FF6BF3 /* Sources */,
+				C3656D9D18D389D200FF6BF3 /* Frameworks */,
+				C3656D9E18D389D200FF6BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3656DA618D389D200FF6BF3 /* PBXTargetDependency */,
+			);
+			name = GoPlacesProTests;
+			productName = GoPlacesProTests;
+			productReference = C3656DA018D389D200FF6BF3 /* GoPlacesProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3656D7718D389D200FF6BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Enze Li";
+				TargetAttributes = {
+					C3656D9F18D389D200FF6BF3 = {
+						TestTargetID = C3656D7E18D389D200FF6BF3;
+					};
+				};
+			};
+			buildConfigurationList = C3656D7A18D389D200FF6BF3 /* Build configuration list for PBXProject "GoPlacesPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3656D7618D389D200FF6BF3;
+			productRefGroup = C3656D8018D389D200FF6BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3656D7E18D389D200FF6BF3 /* GoPlacesPro */,
+				C3656D9F18D389D200FF6BF3 /* GoPlacesProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3656D7D18D389D200FF6BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C379CD18D76F8700B94404 /* texture.jpg in Resources */,
+				C3656D9B18D389D200FF6BF3 /* Images.xcassets in Resources */,
+				C3C379CB18D76F8700B94404 /* Search.png in Resources */,
+				C3C379CC18D76F8700B94404 /* Search@2x.png in Resources */,
+				C3656D8D18D389D200FF6BF3 /* InfoPlist.strings in Resources */,
+				C3C379C718D76F8700B94404 /* Drawers@2x.png in Resources */,
+				C3C379C618D76F8700B94404 /* Drawers.png in Resources */,
+				C3C379C918D76F8700B94404 /* Favorites@2x.png in Resources */,
+				C3656D9618D389D200FF6BF3 /* Main.storyboard in Resources */,
+				C31999F318EDB7BE001949B6 /* placeholder.jpg in Resources */,
+				C3C379C818D76F8700B94404 /* Favorites.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3656D9E18D389D200FF6BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3656DAC18D389D200FF6BF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3656D7B18D389D200FF6BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BB98018E3C8DB005A04C2 /* AFHTTPRequestOperation.m in Sources */,
+				C3FFC1A818DA8A7A00B3C4F6 /* GPFavDetailViewController.m in Sources */,
+				C3C643EC18D4D6C200CB9C21 /* GPDetailViewController.m in Sources */,
+				C36BB98818E3C8DB005A04C2 /* AFURLSessionManager.m in Sources */,
+				C3C643EF18D4D7D300CB9C21 /* GPSearchTableViewController.m in Sources */,
+				C36BB98518E3C8DB005A04C2 /* AFURLConnectionOperation.m in Sources */,
+				C36BB98118E3C8DB005A04C2 /* AFHTTPRequestOperationManager.m in Sources */,
+				C36BB96B18E3BE83005A04C2 /* GooglePlacesSearcher.m in Sources */,
+				C36BB98318E3C8DB005A04C2 /* AFNetworkReachabilityManager.m in Sources */,
+				C3FFC1B118DA9AE800B3C4F6 /* GPSearchDetailViewController.m in Sources */,
+				C3FFC1AB18DA8CF700B3C4F6 /* Venue.m in Sources */,
+				C36BB98418E3C8DB005A04C2 /* AFSecurityPolicy.m in Sources */,
+				C3FFC1AE18DA923F00B3C4F6 /* GPFavTableViewController.m in Sources */,
+				C36BB98618E3C8DB005A04C2 /* AFURLRequestSerialization.m in Sources */,
+				C3656D8F18D389D200FF6BF3 /* main.m in Sources */,
+				C36BB98718E3C8DB005A04C2 /* AFURLResponseSerialization.m in Sources */,
+				C3656D9318D389D200FF6BF3 /* GPAppDelegate.m in Sources */,
+				C3C379DA18D77F4B00B94404 /* FavDataManager.m in Sources */,
+				C36BB98218E3C8DB005A04C2 /* AFHTTPSessionManager.m in Sources */,
+				C3C643E618D4D67200CB9C21 /* GPSearchViewController.m in Sources */,
+				C3C379D018D7707700B94404 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3656D9C18D389D200FF6BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3656DAE18D389D200FF6BF3 /* GoPlacesProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3656DA618D389D200FF6BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3656D7E18D389D200FF6BF3 /* GoPlacesPro */;
+			targetProxy = C3656DA518D389D200FF6BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3656D8B18D389D200FF6BF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3656D8C18D389D200FF6BF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3656D9418D389D200FF6BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3656D9518D389D200FF6BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3656DAA18D389D200FF6BF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3656DAB18D389D200FF6BF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3656DAF18D389D200FF6BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3656DB018D389D200FF6BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3656DB218D389D200FF6BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/enze/Develop/SDWebImage,
+					/Users/enze/Develop/6998GoogleMapsFramework,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoPlacesPro/GoPlacesPro-Prefix.pch";
+				INFOPLIST_FILE = "GoPlacesPro/GoPlacesPro-Info.plist";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3656DB318D389D200FF6BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/enze/Develop/SDWebImage,
+					/Users/enze/Develop/6998GoogleMapsFramework,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoPlacesPro/GoPlacesPro-Prefix.pch";
+				INFOPLIST_FILE = "GoPlacesPro/GoPlacesPro-Info.plist";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3656DB518D389D200FF6BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoPlacesPro.app/GoPlacesPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoPlacesPro/GoPlacesPro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoPlacesProTests/GoPlacesProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3656DB618D389D200FF6BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoPlacesPro.app/GoPlacesPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoPlacesPro/GoPlacesPro-Prefix.pch";
+				INFOPLIST_FILE = "GoPlacesProTests/GoPlacesProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3656D7A18D389D200FF6BF3 /* Build configuration list for PBXProject "GoPlacesPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3656DAF18D389D200FF6BF3 /* Debug */,
+				C3656DB018D389D200FF6BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3656DB118D389D200FF6BF3 /* Build configuration list for PBXNativeTarget "GoPlacesPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3656DB218D389D200FF6BF3 /* Debug */,
+				C3656DB318D389D200FF6BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3656DB418D389D200FF6BF3 /* Build configuration list for PBXNativeTarget "GoPlacesProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3656DB518D389D200FF6BF3 /* Debug */,
+				C3656DB618D389D200FF6BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3C379CE18D7707700B94404 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3C379CF18D7707700B94404 /* Model.xcdatamodel */,
+			);
+			currentVersion = C3C379CF18D7707700B94404 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3656D7718D389D200FF6BF3 /* Project object */;
+}
